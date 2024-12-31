@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    background: url('../images/banner.png');
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(14, 14, 73, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+    border-bottom: 1px solid rgba(51, 168, 219, 1)
+}
+
+h1 {
+    height: 47px;
+    font-weight: 900;
+    text-align: center;
+    font-size: 40px;
+    line-height: 46.96px;
+    margin-bottom: 10px;
+    color: #1472B7;
+}
+
+header p {
+    font-weight: 400;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 23.48px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header button {
+    width: 326px;
+    height: 57px;
+    margin: 19px 91px 19px 91px;
+    border: 2px solid;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    background-color: #1472B7;
+    border-radius: 10px;
+}
